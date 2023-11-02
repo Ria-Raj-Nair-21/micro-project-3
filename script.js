@@ -20,7 +20,7 @@ function listFoodItemsWithCalorieBelow(data, threshold) {
 function listFoodItemsByProteinContent(data) {
   return data
     .slice()
-    .sort((a, b) => b.proteins - a.proteins) // Corrected the property name to "proteins"
+    .sort((a, b) => b.proteins - a.proteins) 
     .map((item) => item.foodname);
 }
 
